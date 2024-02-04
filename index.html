@@ -147,7 +147,10 @@
                   >
                   <h1 class="mb-4 mt-3">Hi, I am <span>Haseeb</span></h1>
                   <p>
-                    <a href="#" class="btn btn-primary" style="width: 150px"
+                    <a
+                      href="#contact-section"
+                      class="btn btn-primary"
+                      style="width: 150px"
                       >Hire me</a
                     >
                     <!-- <a href="#" class="btn btn-primary btn-outline-primary"
@@ -821,7 +824,7 @@
         </div>
       </div>
     </section> -->
-
+    <!-- 
     <section class="ftco-hireme">
       <div class="container">
         <div class="row justify-content-between">
@@ -843,7 +846,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="ftco-section ftco-project" id="projects-section">
       <div class="container-fluid px-md-4">
@@ -1198,22 +1201,32 @@
       </div>
     </section> -->
 
-    <section class="ftco-section contact-section ftco-no-pb">
+    <section
+      class="ftco-section contact-section ftco-no-pb"
+      id="contact-section"
+    >
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading">Contact us</span>
+            <span class="subheading" style="margin-bottom: -10px"
+              >Contact us</span
+            >
             <h2 class="mb-4">Have a Project?</h2>
-            <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia
+            <p style="margin-top: -30px; margin-bottom: -30px">
+              Feel free to reach out with your inquiries and questions related
+              to iOS app development. I am here to assist you and provide
+              guidance.
             </p>
           </div>
         </div>
 
-        <div class="row block-9" id="contact-section">
+        <div class="row block-9">
           <div class="col-md-8">
-            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+            <form
+              action="https://formsubmit.co/ijazk35@gmail.com"
+              class="bg-light p-4 p-md-5 contact-form"
+              method="post"
+            >
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -1221,6 +1234,7 @@
                       type="text"
                       class="form-control"
                       placeholder="Your Name"
+                      name="name"
                     />
                   </div>
                 </div>
@@ -1230,6 +1244,7 @@
                       type="text"
                       class="form-control"
                       placeholder="Your Email"
+                      name="email"
                     />
                   </div>
                 </div>
@@ -1239,13 +1254,14 @@
                       type="text"
                       class="form-control"
                       placeholder="Subject"
+                      name="subject"
                     />
                   </div>
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
                     <textarea
-                      name=""
+                      name="message"
                       id=""
                       cols="30"
                       rows="7"
