@@ -9179,6 +9179,7 @@ textarea.form-control {
     text-transform: uppercase;
     letter-spacing: .1em; }
   .ftco-footer .ftco-footer-widget h2 {
+    padding-right: 25px;
     font-weight: normal;
     color: #fff;
     margin-bottom: 40px;
