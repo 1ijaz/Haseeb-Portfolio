@@ -1557,3 +1557,23 @@
     modal.style.display = "none";
   }
 </script>
+<!-- Add this script at the end of your HTML body -->
+<script>
+  // Function to scroll to a specific element
+  function scrollToElement(selector) {
+    const element = document.querySelector(selector);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+
+  // Check if the URL contains a hash (e.g., #projects-section)
+  const hash = window.location.hash;
+  if (hash) {
+    // Wait for the DOM content to be fully loaded
+    document.addEventListener("DOMContentLoaded", () => {
+      // Scroll to the section specified in the hash
+      scrollToElement(hash);
+    });
+  }
+</script>
